@@ -8,3 +8,8 @@
 .PokeCard-name{
   font-size: 1rem;
 }
+
+.PokeCard-img {
+  width: 50%;
+}
+
