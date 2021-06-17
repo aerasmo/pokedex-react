@@ -10,5 +10,5 @@ A simple react pokedex from Colt-Steele's modern react bootcamp exercise
 - using pokedex component with random data to generate pokemon for player 1 and player 2
 - updated sprites
 
-![image](https://user-images.githubusercontent.com/70811340/122346780-eda6f100-cf7b-11eb-962d-5312444454cb.png)
+![image](https://user-images.githubusercontent.com/70811340/122347539-b71da600-cf7c-11eb-83cc-fc2e12b64295.png)
 
