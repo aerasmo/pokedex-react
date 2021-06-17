@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Pokemon from './Pokemon'
+import PokeCard from './PokeCard'
 import './Pokedex.css'
 
 
@@ -31,7 +31,7 @@ class Pokedex extends Component {
         <div>
           <ul className="Pokedex-Pokemons">
             {data.map(pokemon => 
-              <Pokemon id={pokemon.id} name={pokemon.name} 
+              <PokeCard id={pokemon.id} name={pokemon.name} 
                        type={pokemon.type} base_exp={pokemon.base_exp} 
               />
             )}

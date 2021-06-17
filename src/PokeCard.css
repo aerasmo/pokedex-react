@@ -1,11 +1,10 @@
-.Pokemon {
+.PokeCard {
   list-style-type: none;
   margin: 0.5rem 0.2rem;
-  
   width: 19%;
   background: #e5e5e5;
 }
 
-.Pokemon-name{
+.PokeCard-name{
   font-size: 1rem;
 }

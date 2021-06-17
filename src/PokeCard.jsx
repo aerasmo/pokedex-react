@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import './Pokemon.css'
+import './PokeCard.css'
 
 function fetchImage ( id ) {
   return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`
 }
 
-class Pokemon extends Component {
+class PokeCard extends Component {
   static defaultProps = {
     id: 1,
     name: 'Bulbasaur',    
@@ -16,15 +16,15 @@ class Pokemon extends Component {
   render() {
     let { id, name ,type, base_exp} = this.props;
     return (
-      <li className="Pokemon"> 
-        <h1 className="Pokemon-name"> {name}</h1>
-        <img className="Pokemon-img" src={ fetchImage(id)} alt={name}/>
-        <p className="Pokemon-type"> type: {type} </p>
-        <p className="Pokemon-base_exp"> base experience: {base_exp} </p>
+      <li className="PokeCard"> 
+        <h1 className="PokeCard-name"> {name}</h1>
+        <img className="PokeCard-img" src={ fetchImage(id)} alt={name}/>
+        <p className="PokeCard-type"> type: {type} </p>
+        <p className="PokeCard-base_exp"> base experience: {base_exp} </p>
       </li>
     ) 
   }
 }
 
 
-export default Pokemon
+export default PokeCard
