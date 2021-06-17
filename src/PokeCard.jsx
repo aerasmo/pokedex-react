@@ -1,11 +1,6 @@
 import React, { Component } from 'react'
 import './PokeCard.css'
-
-function fetchImage ( id ) {
-  // return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`
-  id = id.toString().padStart(3, "0")
-  return `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${id}.png`
-}
+import { fetchImage } from './helpers'
 
 class PokeCard extends Component {
   static defaultProps = {

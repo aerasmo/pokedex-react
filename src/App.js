@@ -1,10 +1,9 @@
 import './App.css';
-import Pokedex from './Pokedex'
-
+import Battler from './Battler';
 function App() {
   return (
     <div className="App">
-      <Pokedex />
+      <Battler />
     </div>
   );
 }

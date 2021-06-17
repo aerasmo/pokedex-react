@@ -4,9 +4,12 @@
   width: 19%;
   background: #e5e5e5;
 }
+.PokeCard:hover {
+  background: #d5d5d5;
 
+}
 .PokeCard-name{
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 .PokeCard-img {
