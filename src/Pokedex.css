@@ -1,0 +1,10 @@
+.Pokedex-header {
+  color: #010101;
+}
+
+.Pokedex-Pokemons {
+  display: flex;
+  flex-wrap: wrap;
+  /* background: red; */
+  margin: 0;
+}
